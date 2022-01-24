@@ -1,0 +1,9 @@
+
+pages:
+  script:
+    - echo "Hospedagem página estática"
+  artifacts:
+    paths:
+      -public
+    only:
+      -master
